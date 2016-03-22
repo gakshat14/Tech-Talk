@@ -4,13 +4,12 @@ html, body {
 h1{
     font-family: 'Bevan', cursive; 
 }
-#intro {
+#header {
   background-image: url('../Images/TechTalk.jpg'); 
   color: white;
   text-align: center;
   height: 100%;
   width: 100%;
-  display: table;
   background-attachment: fixed;
 }
 #logo{
@@ -18,7 +17,7 @@ h1{
 }
 #log{
    font-family: 'Bevan', cursive; 
-   font-size: 125px;
+   font-size: 100px;
 }
 #tag{
     font-family: 'Sansita One', cursive;
@@ -35,3 +34,14 @@ h1{
   50%      { bottom:20px; }
   100%     {bottom:0;}
 }
+#intro{
+    height: 100%;
+    width: 100%;
+    border-top:10px solid cornflowerblue;
+}
+#teamM{
+    
+    border-top: 10px solid cornflowerblue;
+}
+
+
