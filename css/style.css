@@ -27,6 +27,8 @@ h1{
 .btn{
     background-color: transparent;
     color: white;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 #intro{
     height: 100%;
