@@ -1,0 +1,30 @@
+
+nav.top-nav{
+    height:122px;
+    box-shadow:none;
+}
+nav.top-nav a.page-title{
+    line-height:122px;
+    font-size:48px;
+}
+nav{
+    box-shadow: none;
+}
+#con{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    
+}
+h4{
+    font-family: 'Lobster', cursive;
+    color: #ef5350;
+}
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 6d450822b0d3de48a25e61de3d112b93d05bdc4f
