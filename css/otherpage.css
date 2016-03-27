@@ -10,3 +10,23 @@ nav.top-nav a.page-title{
 nav{
     box-shadow: none;
 }
+#con{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    
+}
+h4{
+    font-family: 'Lobster', cursive;
+    color: #ef5350;
+}
+body{
+    background-image: url(../Images/page-back.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
