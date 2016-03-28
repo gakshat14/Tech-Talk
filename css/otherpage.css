@@ -1,8 +1,8 @@
-
 .page-title{
     line-height:122px;
-    font-size:48px;
-       color:white;
+    font-size:70px;
+    color:white;
+    font-family: calibri;
 }
 #con{
     margin-top: 50px;
@@ -62,5 +62,4 @@ body{
 #head{
     margin-top: 35px;
     background-color: #324851;
- 
 }
