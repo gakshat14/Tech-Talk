@@ -23,6 +23,7 @@ h4{
     font-family: 'Lobster', cursive;
     color: #ef5350;
 }
+
 body{
     background-image: url(../Images/page-back.jpg);
      background-attachment: fixed;
@@ -58,5 +59,3 @@ body{
 #google{
     color:#dd4b39;
 }
-
-
