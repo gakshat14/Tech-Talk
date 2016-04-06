@@ -44,5 +44,10 @@ h1{
     background-color: transparent;
     color: white;
 }
+@media(max-width:524px){
+    #log{
+        font-size: 75px;
+    }
+}
 
 
