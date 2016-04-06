@@ -1,6 +1,6 @@
 .page-title{
     line-height:122px;
-    font-size:70px;
+    font-size:60px;
     color:white;
     font-family: calibri;
 }
@@ -19,10 +19,10 @@ h4{
 }
 
 body{
-   
+     background-image: url(../Images/subtle_grunge.png);
      background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-position: center;
+     
+     
 }
 
 .iconSize{
@@ -60,6 +60,6 @@ body{
     background-color: #336B87;
 }
 #head{
-    margin-top: 35px;
+    margin-top: 15px;
     background-color: #324851;
 }

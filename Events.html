@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/otherpage.css">
-    <script src="js/materialize.js"></script>
-     
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> 
 </head>
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -35,7 +34,7 @@
         <li><a href="contactus.html">Team</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="contactus.html">Contact Us</a></li>
-        <li><a href="#">Register</a></li>
+        <li><a href="http://goo.gl/forms/0Obomq1syV">Register</a></li>
       </ul>
     </div>
   </nav>
@@ -46,21 +45,47 @@
       <a style="margin-top:-55px;margin-left:10px; z-index:1000;" href="#" class="brand-logo hide-on-small-only left">
                   <img src="Images/logo.png" alt="logo" height="100" width="115"></a>
       
-      <ul class="right">
-        <li><a style="font-size:20px;" class="active" href="aboutus.html">About Us</a></li>
-        <li><a style="font-size:20px;" href="/#">Team</a></li>
-        <li><a style="font-size:20px;" href="/#">Events</a></li>
-        <li><a style="font-size:20px;" href="/#">Contact Us</a></li>
-        <li><a style="font-size:20px;" href="/#">Register</a></li>
+      <ul class="tab right">
+        <li class="tab"><a style="font-size:20px;" href="aboutus.html">ABOUT US</a></li>
+        <li><a style="font-size:20px;" href="team.html">TEAM</a></li>
+        <li><a style="font-size:20px;" href="events.html">EVENTS</a></li>
+        <li><a style="font-size:20px;" href="contactus.html">CONTACT US</a></li>
+        <li><a style="font-size:20px;" href="http://goo.gl/forms/0Obomq1syV">REGISTER</a></li>
       </ul>
     </div>
   </nav>
   </div>
     </header>
+    <div id="head" class="z-depth-2">
+        <h4 class="page-title center-align">EVENTS</h4>
+    </div>
+    <div class="container"> 
+        <div class="row">   
+           <div class="col s12 m5 l5">
+               <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed" src="Images/TechPoster.jpg">
+                </div>
+                <div style="text-align:center;" class="card medium">
+                    
+                    <h4 style="font-family: 'Montserrat', sans-serif;"> Tech Talk at IIIT, Jabalpur</h4>
+                    <h5>We take a great pride to announce that we will be conducting a tech talk session in 
+                        Indian Institute of Information Technology, Jabalpur. We have decided to talk about several new technologies. 
+                        Event will be conducted on April 9,2016 from 10:30AM. You can register for the event by clicking on register now
+                        </h5>
+                        <a href="http://goo.gl/forms/0Obomq1syV">Register Now</a>
+                </div>
+           </div>
+        </div>
+    </div>
     <script>
     $( document ).ready(function(){
           $(".button-collapse").sideNav();
     }); 
+      $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+       
 </script>
 </body> 
 </html>
