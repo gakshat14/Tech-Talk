@@ -1,17 +1,11 @@
-
-nav.top-nav{
-    height:122px;
-    box-shadow:none;
-}
-nav.top-nav a.page-title{
+.page-title{
     line-height:122px;
-    font-size:48px;
-}
-nav{
-    box-shadow: none;
+    font-size:60px;
+    color:white;
+    font-family: calibri;
 }
 #con{
-    margin-top: 20px;
+    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -21,14 +15,14 @@ nav{
 }
 h4{
     font-family: 'Lobster', cursive;
-    color: #ef5350;
+    color: #763626;
 }
 
 body{
-    background-image: url(../Images/page-back.jpg);
+     background-image: url(../Images/subtle_grunge.png);
      background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-position: center;
+     
+     
 }
 
 .iconSize{
@@ -58,4 +52,14 @@ body{
 }
 #google{
     color:#dd4b39;
+}
+#first{
+    background-color: #90AFC5;
+}
+#second{
+    background-color: #336B87;
+}
+#head{
+    margin-top: 15px;
+    background-color: #324851;
 }
