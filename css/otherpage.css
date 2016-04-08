@@ -61,8 +61,8 @@ body{
     margin-top: 15px;
     background-color: #324851;
 }
-@media(max-width: 425px){
+@media(max-width: 500px){
     .fa-2x{
-        margin-top: 18px;
+        margin-top:18px;
     }
 }
