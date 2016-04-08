@@ -21,8 +21,6 @@ h4{
 body{
      background-image: url(../Images/subtle_grunge.png);
      background-attachment: fixed;
-     
-     
 }
 
 .iconSize{
@@ -62,4 +60,9 @@ body{
 #head{
     margin-top: 15px;
     background-color: #324851;
+}
+@media(max-width: 425px){
+    .fa-2x{
+        margin-top: 18px;
+    }
 }
